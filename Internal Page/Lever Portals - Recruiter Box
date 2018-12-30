@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 16px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 16px;
+}
+
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Individual Submission Pages</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <a href="https://jobs.lever.co/domio?agencyId=33002238-e275-47e4-9cc3-3ad856412095"><img src="https://vectr.com/scottwilliams580/bzbK2hL9N.svg?width=400&height=400&select=a4PWGAdcMQ,b4kWSyJO4e&source=selection" style="width:100%"></a>
+    <a href="https://jobs.lever.co/sesamecare?agencyId=1b0265a8-0c24-4395-ab73-a610585d8dd8"><img src="https://vectr.com/scottwilliams580/bzbK2hL9N.svg?width=400&height=400&select=aBmspGDNR,b2bYPMjlh4&source=selection" style="width:100%"></a>
+  </div>
+  <div class="column">
+  <a href="https://jobs.lever.co/vts?agencyId=d1b9a523-2b1f-4685-b52e-e86b9cb3b077"><img src="https://vectr.com/scottwilliams580/bzbK2hL9N.svg?width=399.9999999999999&height=334.79999999999995&select=ee9qCukep&source=selection" style="width:100%"></a>
+  <a href="https://odentech.recruiterbox.com/external-agency-app/dashboard"><img src="https://vectr.com/scottwilliams580/bzbK2hL9N.svg?width=400&height=400&select=h14msC2L5X,e4kFr4Aad&source=selection" style="width:100%"></a>
+  </div>
+  <div class="column">
+    <a href="https://jobs.lever.co/boostinsurance?agencyId=387a69d2-b7b7-424a-bd3d-9c2635ec1fdc"><img src="https://vectr.com/scottwilliams580/bzbK2hL9N.svg?width=399.9999999999998&height=400.00000000000006&select=gXWSZPPAz&source=selection" style="width:100%"></a>
+    <a href="https://jobs.lever.co/petalcard?agencyId=6545bb46-c874-4f33-9127-04c0b84ec9f3"><img src="https://vectr.com/scottwilliams580/bzbK2hL9N.svg?width=400&height=399.99999999999994&select=bX1tofJ5G&source=selection" style="width:100%"></a>
+  </div>
+</div>
+
+</body>
+</html>
